@@ -1,0 +1,18 @@
+// 変数の定義
+$primary-color: #3498db;
+
+// グローバルスタイル
+body {
+  font-family: Arial, sans-serif;
+  color: $primary-color;
+}
+
+// ネストされたスタイル
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 2em;
+  }
+}
