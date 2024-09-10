@@ -5,4 +5,7 @@ export default defineNuxtConfig({
   css: [
     '~/assets/scss/main.scss'
   ],
+  plugins: [
+    '~/plugins/gsap.client.ts'
+  ],
 })
